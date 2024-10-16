@@ -23,16 +23,16 @@
             <div class="img-container">
                 <img src="<?= $BASE_URL ?>/img/<?= $currentPost['img']?>" alt="<?= $currentPost['title']?>">
             </div>
-            <p class="post-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugiat architecto quibusdam nesciunt repudiandae nobis ut? Amet, est doloremque. Blanditiis reprehenderit deserunt beatae dignissimos officia unde exercitationem suscipit ipsum nihil.
-            Ad rerum dolorem in ducimus, quasi voluptate corporis vero assumenda quia laboriosam modi incidunt repudiandae inventore eligendi natus ut ex distinctio, voluptas rem odit possimus officiis necessitatibus? Reprehenderit, itaque sequi?
-            Illum ducimus tenetur omnis, laboriosam ab dolore eos asperiores exercitationem nulla fugit esse, nihil deleniti veritatis dicta sit ratione rerum accusamus quam reprehenderit suscipit nisi in iste tempore. Suscipit, ab!
-            Sed dolorum tempore quidem laboriosam officiis possimus veniam culpa sit nemo doloribus impedit, ex velit quae ullam nobis optio aliquam ipsam quia dicta! Ipsa officiis reiciendis quas placeat qui doloribus!
-            Tenetur ipsam ab iure. Sapiente aspernatur omnis nam autem mollitia at? Impedit illum necessitatibus pariatur harum natus, cum praesentium quasi nulla laboriosam saepe reprehenderit optio perferendis a molestiae ratione quos?
-            Cumque aliquid commodi fuga, autem vitae iste! Sed laboriosam eos repellendus nobis provident iure expedita vero aperiam obcaecati, doloremque odio repellat sapiente placeat quia officiis asperiores aspernatur eveniet minus delectus.
-            Velit impedit perferendis, in et dolorem quod expedita dolores a quam dolore molestiae veritatis ducimus blanditiis doloremque autem, exercitationem delectus quibusdam cupiditate, reiciendis architecto earum. Natus aliquam illum facere adipisci!
-            Ut et nesciunt iusto quaerat in reprehenderit, iure id velit illum nostrum quasi, at voluptates vero enim tenetur! Corrupti, ipsa error nostrum commodi itaque suscipit nulla! Quisquam assumenda iure officia.
-            Unde aperiam quis doloremque necessitatibus ratione eveniet architecto aut accusantium perferendis exercitationem voluptatem id possimus corrupti alias est eum, voluptatibus iusto incidunt vel qui dolore provident, delectus nobis optio. Eligendi.
-            Fugiat ratione magnam ullam voluptatem ad doloremque vero aperiam, fugit deleniti odio laudantium porro praesentium eveniet adipisci quae earum quibusdam perferendis exercitationem quia. Voluptate in corrupti expedita architecto saepe sequi.</p>
+            <p class="post-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum doloribus cupiditate neque, harum numquam magni doloremque distinctio dolorem officia ipsum quasi, explicabo provident repudiandae soluta rem rerum iusto non labore!
+            Natus quas rerum animi excepturi ducimus! Ipsum, earum quibusdam fugiat facilis, temporibus aspernatur dolore voluptatum sapiente commodi, unde nemo ab molestias perspiciatis mollitia cupiditate quia quisquam provident possimus! Debitis, sed.
+            Error quidem optio cupiditate enim! Ab hic ad vel quis accusantium possimus nihil iste modi harum atque rem officiis accusamus quibusdam, voluptates distinctio cumque laborum asperiores facilis totam nemo assumenda.
+            Labore, vitae perspiciatis praesentium explicabo officiis obcaecati eveniet aliquam repellendus quia ipsum odio similique, quos, soluta in voluptatem! Vero nisi odit tempora reiciendis iste ipsum beatae omnis in molestiae id!
+            Quisquam nam tenetur ea ex odit aspernatur deleniti iure esse dolorem facere id accusamus nulla, totam magni atque officia nihil, ipsum reiciendis, iusto aut impedit dolorum enim? Amet, neque unde.
+            Praesentium, dolorum excepturi. Inventore pariatur neque iusto corporis eum necessitatibus eaque iste hic facilis ratione temporibus, impedit repudiandae obcaecati fuga, alias beatae sequi placeat aperiam, modi ex laudantium! Facilis, hic.
+            Fuga, odit cupiditate ut, fugit molestias aliquam expedita blanditiis perspiciatis minima repudiandae, sed architecto autem! Officiis excepturi, consectetur quae dolorum aut iusto! Quidem, eum iure! Unde fugit dignissimos mollitia soluta?
+            Recusandae laudantium molestias odit nam autem, ducimus vitae quasi, debitis nulla eaque voluptas minus, voluptatum nemo deleniti! Fuga explicabo laborum, minus quidem nihil eligendi necessitatibus, expedita nulla in ratione vel?
+            Consequatur nulla a culpa. Rem animi laboriosam porro consequuntur eos, odio nobis ratione praesentium alias nesciunt aperiam dolores minus perferendis nostrum architecto reprehenderit maxime! Vero cupiditate dicta sapiente perspiciatis eveniet.
+            Natus quis numquam asperiores suscipit eveniet! Blanditiis placeat provident suscipit nam consequatur vero minus quasi necessitatibus, sequi excepturi totam assumenda reprehenderit optio impedit voluptatibus minima tempore quam hic laudantium nisi!</p>
         </div>
     <aside id="nav-container">
         <h3 id="tags-title">Tags</h3>
