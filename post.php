@@ -21,29 +21,35 @@
             <h1 id="main-title"><?= $currentPost['title']?></h1>
             <p><?= $currentPost['description']?></p>
             <div class="img-container">
-                <img src="<?= $BASE_URL ?>/img/<?= $currentPost['img']?>" alt="<?= $currentPost['title']?>:">
+                <img src="<?= $BASE_URL ?>/img/<?= $currentPost['img']?>" alt="<?= $currentPost['title']?>">
             </div>
-            <p class="post-content">
-            Programar em PHP é uma experiência rica e envolvente, especialmente para desenvolvedores que desejam construir aplicações web dinâmicas e interativas. PHP, que significa "Hypertext Preprocessor", é uma linguagem de programação de código aberto amplamente utilizada para o desenvolvimento web. Sua popularidade se deve à sua simplicidade, flexibilidade e à vasta comunidade que a suporta.
-
-<h2>História e Evolução do PHP</h2><br>
-PHP foi criado por Rasmus Lerdorf em 1994, inicialmente como um conjunto de ferramentas para rastrear visitas em seu currículo online. Desde então, evoluiu significativamente, passando por várias versões que acrescentaram funcionalidades e melhorias de desempenho. A versão 7, por exemplo, trouxe um aumento substancial na velocidade e melhorias no consumo de memória, tornando o PHP ainda mais competitivo em relação a outras linguagens de programação.<br>
-
-<h2>Por que Usar PHP?</h2>
-<ul>
-<li>Fácil de Aprender: PHP tem uma sintaxe clara e acessível, o que o torna uma excelente escolha para iniciantes. Os desenvolvedores podem rapidamente começar a criar scripts simples e avançar para projetos mais complexos.</li>
-
-<li>Integração com Bancos de Dados: PHP se integra facilmente com diversos sistemas de gerenciamento de banco de dados, sendo o MySQL o mais popular. Essa integração permite que desenvolvedores criem aplicações que armazenam e manipulam dados de forma eficiente.</li>
-
-<li>Comunidade Ativa: A comunidade PHP é vibrante e ativa, oferecendo uma vasta gama de recursos, como fóruns, tutoriais e bibliotecas de código aberto. Isso significa que desenvolvedores podem encontrar facilmente suporte e soluções para problemas comuns.</li>
-
-<li>Frameworks Poderosos: PHP conta com diversos frameworks, como Laravel, Symfony e CodeIgniter, que ajudam a acelerar o desenvolvimento. Esses frameworks oferecem estrutura e funcionalidades pré-construídas, permitindo que os desenvolvedores se concentrem na lógica do aplicativo em vez de se preocupar com a configuração básica.</li>
-
-<li>Ampla Compatibilidade de Hospedagem: A maioria dos provedores de hospedagem suporta PHP, tornando-o uma escolha prática para projetos que precisam ser colocados online rapidamente.</li>
-</ul>
-</p>
+            <p class="post-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugiat architecto quibusdam nesciunt repudiandae nobis ut? Amet, est doloremque. Blanditiis reprehenderit deserunt beatae dignissimos officia unde exercitationem suscipit ipsum nihil.
+            Ad rerum dolorem in ducimus, quasi voluptate corporis vero assumenda quia laboriosam modi incidunt repudiandae inventore eligendi natus ut ex distinctio, voluptas rem odit possimus officiis necessitatibus? Reprehenderit, itaque sequi?
+            Illum ducimus tenetur omnis, laboriosam ab dolore eos asperiores exercitationem nulla fugit esse, nihil deleniti veritatis dicta sit ratione rerum accusamus quam reprehenderit suscipit nisi in iste tempore. Suscipit, ab!
+            Sed dolorum tempore quidem laboriosam officiis possimus veniam culpa sit nemo doloribus impedit, ex velit quae ullam nobis optio aliquam ipsam quia dicta! Ipsa officiis reiciendis quas placeat qui doloribus!
+            Tenetur ipsam ab iure. Sapiente aspernatur omnis nam autem mollitia at? Impedit illum necessitatibus pariatur harum natus, cum praesentium quasi nulla laboriosam saepe reprehenderit optio perferendis a molestiae ratione quos?
+            Cumque aliquid commodi fuga, autem vitae iste! Sed laboriosam eos repellendus nobis provident iure expedita vero aperiam obcaecati, doloremque odio repellat sapiente placeat quia officiis asperiores aspernatur eveniet minus delectus.
+            Velit impedit perferendis, in et dolorem quod expedita dolores a quam dolore molestiae veritatis ducimus blanditiis doloremque autem, exercitationem delectus quibusdam cupiditate, reiciendis architecto earum. Natus aliquam illum facere adipisci!
+            Ut et nesciunt iusto quaerat in reprehenderit, iure id velit illum nostrum quasi, at voluptates vero enim tenetur! Corrupti, ipsa error nostrum commodi itaque suscipit nulla! Quisquam assumenda iure officia.
+            Unde aperiam quis doloremque necessitatibus ratione eveniet architecto aut accusantium perferendis exercitationem voluptatem id possimus corrupti alias est eum, voluptatibus iusto incidunt vel qui dolore provident, delectus nobis optio. Eligendi.
+            Fugiat ratione magnam ullam voluptatem ad doloremque vero aperiam, fugit deleniti odio laudantium porro praesentium eveniet adipisci quae earum quibusdam perferendis exercitationem quia. Voluptate in corrupti expedita architecto saepe sequi.</p>
         </div>
-    </main>
+    <aside id="nav-container">
+        <h3 id="tags-title">Tags</h3>
+            <ul id="tag-list">
+                <?php foreach($currentPost['tags'] as $tag): ?>
+                    <li><a href="#"><?= $tag ?></a></li>
+                <?php endforeach; ?>
+            </ul>
+        <h3 id="categories-title">Categorias</h3>
+            <ul id="categories-list">
+                <?php foreach($categories as $category): ?>
+                    <li><a href="#"><?= $category ?></a></li>
+                <?php endforeach; ?>
+            </ul>
+    </aside>
+</main>
+
 <?php
     include_once("templates/footer.php");
 ?>
